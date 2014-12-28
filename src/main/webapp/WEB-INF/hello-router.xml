@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<robot>
+
+	<rule>
+		<type>text</type>
+		<forward>/hello.yx</forward>
+	</rule>
+	<!-- 自定义菜单的事件 -->
+	<rule>
+		<type>event</type>
+		<event>click</event>
+		<eventKey>/event.yx</eventKey>
+		<forward>/event.yx</forward>
+	</rule>
+
+</robot>
